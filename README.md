@@ -4,7 +4,6 @@
 
 This repository contains an ongoing project to implement Prolog functionality using Python. Prolog is a logic programming language that is particularly well-suited for symbolic and symbolic computation tasks. This implementation aims to provide a Python-based interpreter for Prolog programs, allowing users to leverage Prolog's logical inference capabilities within Python applications.
 
-
 ## Status
 
 **Note:** This implementation is currently incomplete and is under development.
@@ -66,9 +65,3 @@ This would output:
 ```
 {'X': 'bob'}
 ```
-
-## Contributing
-
-Contributions are highly encouraged! If you'd like to contribute to this project, please feel free to submit pull requests, report issues, or suggest improvements.
-
-Feel free to adjust the content and formatting according to your preferences and project requirements!
