@@ -1,0 +1,42 @@
+1. Who is Andrew mother?
+	mother(X, andrew).
+2. Was Elizabeth the wife of Mia Grace Tindall?
+	divorced(elizabeth, mia).
+3. Is Price Harry the son of Prince Charles?
+	son(harry, charles).
+4. Is Isla Phillip son of Autumn Kelly?
+	son(isla, autumn).
+5. Is Mia Grace Tindall the grandchild of Prince Phillip?
+	grandchild(mia, phillip).
+6. Are Price Harry and Peter Phillip siblings?
+	sibling(harry, peter).
+7. Are Diana and Charles divorced?
+	divorced(diana, charles).
+8. Is Charlotte married?
+	married(charlotte, X).
+9. List the couples that married.
+	married(X, Y).
+10. List the couples that divorced.
+	divorced(X, Y).
+11. List the couples that married and have children.
+	married(X, Y), child(Z, X), child(Z, Y).
+12. List the couples that are divorced and have children.
+	divorced(X, Y), child(Z, X), child(Z, Y).
+13. List pair of siblings.
+	sibling(X, Y).
+14. Is Autumn Mia’s aunt?
+	aunt(autumn, mia).
+15. Is Peter William’s uncle?
+	uncle(peter, william).
+16. Is Mike Diana’s niece?
+	niece(mike, diana).
+17. List all of Peter's nieces.
+	niece(X, peter).
+18. List all of Zara's granddaughter.
+	granddaughter(X, zara).
+19. Who are Elizabeth's grandchild and also Sarah's child?
+	grandchild(X, elizabeth), child(X, sarah).
+20. List all children of the divorced couple.
+	child(X, Y), divorced(Y, Z).
+21. List all Elizabeth's grandchildren that married.
+	grandchild(X, elizabeth), married(X, Y).

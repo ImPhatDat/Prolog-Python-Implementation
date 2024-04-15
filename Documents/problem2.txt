@@ -1,0 +1,41 @@
+1. Is Conan man?
+	male(conan).
+2. Is Ayumi a child?
+	child (ayumi).
+3. Who is Conan girlfriend?
+	love (conan, X).
+4. Is Haibara Conan's girlfriend?
+	love(conan, haibara).
+5. Can Conan cooperate with Gin?
+	coop(conan, gin).
+6. Is Conan and Vodka confront each other?
+	confront(conan, vodka).
+7. Is Conan protecting Ran from Kogoro?
+	protect(conan, ran, kogoro).
+8. Who are Conan's parent?
+	parent(X, conan).
+9. List all the detectives.
+	detective(X).
+10. List all the member of Black Organization.
+	blackOrganization(X).
+11. List all the people that can cooperate with Conan.
+	coop(conan, X)
+12. List all the people that can cooperate with Gin.
+	coop(gin, X)
+13. List all pair of people that can cooperate toghether and they are member of black organization.
+	coop(X, Y), blackOrganization(X), blackOrganization(Y)
+14. List all the people that confront Conan.
+	confront(conan, X).
+15. List all the people that confront Vermouth.
+(chỉ được tính cảnh sát, thám tử, gián điệp trong tổ chức).
+	confront(X, vermouth).
+16. List all pair of couples.
+	love(X, Y).
+17. List all the children that megure protect from Gin in Black Organization.
+	protect(megure, X, gin),child(X).
+18.Who are Conan's friends?
+	friend(conan, X).
+19. List spy in Black Organization.
+	spy(X).
+20. List all people that heiji can protect Vodka from B.O.
+	protect(heiji, X, vodka).
